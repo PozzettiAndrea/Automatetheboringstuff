@@ -1,0 +1,7 @@
+? = 0 or 1 times
+* = 0 or more times
++ = one or more
+{x} = 
+{x,y} = minimum x maximum y times
+when ? comes after {x,y}, it means do a non greedy match, meaning find the shortest possible string.
+If there is no ? the standard method is to find the longest, greedy matching.

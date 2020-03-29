@@ -1,0 +1,1 @@
+webbrowser module can open a link on your system's predefined browser. That's it.

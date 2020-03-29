@@ -1,0 +1,15 @@
+character classes:
+\d = digits
+\D = any non numeric digit
+\w = any letter, numeric digit or the underscore character 
+(any "word" characters, no punctuation mark or spaces)
+\W = any non word character, see above
+\s = any space, tab or newline character
+\S = any non \s character
+\n = newline
+you can create your own character classes by:
+vowelclass = re.compile(r'[aeiou]')
+
+capital letters a to f = re.compile(r'[A-F]')
+
+^ means the opposite of whatever you have in your list

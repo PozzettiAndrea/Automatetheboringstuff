@@ -1,0 +1,10 @@
+Accidentally deleted the sub() part of the code.
+
+Anyway sub() allows you to redact whatever you find in the code with something else.
+
+You can have that something else depend on what you find by having groups and using \1 or \2 etc to specify which groups you want to add where. Also gotta use r before the substitute string if you're doing that.
+
+
+re.VERBOSE allows you to add comments after #, make it multiple line stnirg
+
+to pass multiple arguments: re.compile(r'''blabla''', re.IGNORECASE | re.DOTALL | re.VERBOSE)

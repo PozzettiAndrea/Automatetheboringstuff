@@ -1,0 +1,5 @@
+PyPDF2
+
+Has reader and writer objects
+
+write() saves changes

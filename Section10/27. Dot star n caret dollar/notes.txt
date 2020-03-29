@@ -1,0 +1,9 @@
+^ = at the beginning
+? = at the end
+^(.*)? = at the beginning and the end
+.sth = ends with sth
+.sth{1,2} = at least 1 at most 2 more chars before
+.* = anythinggggggg. But not newlines.
+.*, re.DOTALL = truly anything including newlines
+something (example: [aeiou]), re.IGNORECASE = case insensitive
+re.I = re.IGNORECASE

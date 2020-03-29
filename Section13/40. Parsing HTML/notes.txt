@@ -1,0 +1,1 @@
+Request has .code() method that returns the code (200, 404 etc)

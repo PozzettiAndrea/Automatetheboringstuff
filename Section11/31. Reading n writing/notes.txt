@@ -1,0 +1,3 @@
+w writes
+a appends
+you can use shelve to save python stuff in a file, it saves it like a dictionary you can use .keys() and .values()

@@ -1,0 +1,11 @@
+os.getcdw() will return the current working directory
+os.chdir will change the current working directory
+Absolute paths always begin with the root folder, relative paths do not
+the . folder represents "this folder", .. represents the parent folder
+os.path.abspath() returns an absolute form of the relative path you give it
+os.path.isabs and os.path.isrel return True if the path given to them is absolute or relative respectivey
+os.makedirs() makes folders
+os.path.getsize() returns a file's size
+os.listdir() returns a list of strings of filenames
+os.path.exists() (self explanatory)
+os.path.isfile() (again) 
